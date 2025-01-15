@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: attempting to have multiple mutable borrows of the same variable.  The `bug.rs` file contains the erroneous code, which will fail to compile. The `bugSolution.rs` shows how to resolve this issue by either cloning, using a different pattern or by using interior mutability.
